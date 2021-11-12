@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Androxy</string>
+    <string name="global_http_proxy">Global Http Proxy</string>
+    <string name="set">SET</string>
+    <string name="clear">CLEAR</string>
+    <string name="hint_proxy_ip">Proxy IP (xxx.xxx.xxx.xxx)</string>
+    <string name="hint_proxy_port">Proxy Port (1–65535)</string>
+
+    <string name="invalid_ip_address">Invalid IP address</string>
+    <string name="invalid_port_number">Invalid Port number</string>
+
+    <string name="command_line_exp">First, exec command line to this device on the host computer to grant WRITE_SECURE_SETTINGS permission.</string>
+    <string name="command_line">adb shell pm grant %s android.permission.WRITE_SECURE_SETTINGS</string>
+</resources>
